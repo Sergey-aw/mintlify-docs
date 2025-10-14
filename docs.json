@@ -127,5 +127,11 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  }
+  },
+  "redirects": [
+    { "source": "/student-guide", "destination": "/knowledge-base/student-guide" },
+    { "source": "/teacher-guide", "destination": "/knowledge-base/teacher-guide" },
+    { "source": "/overview", "destination": "/knowledge-base/overview" },
+    { "source": "/faq", "destination": "/knowledge-base/faq-troubleshooting" }
+  ]
 }
