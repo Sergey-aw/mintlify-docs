@@ -1,19 +1,5 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.06145 23.1079C5.26816 22.3769 -3.39077 20.6274 1.4173 5.06384C9.6344 6.09939 16.9728 14.0644 9.06145 23.1079Z" fill="url(#paint0_linear_17557_2021)"/>
-<path d="M8.91928 23.0939C5.27642 21.2223 0.78371 4.20891 17.0071 0C20.7569 7.19341 19.6212 16.5452 8.91928 23.0939Z" fill="url(#paint1_linear_17557_2021)"/>
-<path d="M8.91388 23.0788C8.73534 19.8817 10.1585 9.08525 23.5699 13.1107C23.1812 20.1229 18.984 26.4182 8.91388 23.0788Z" fill="url(#paint2_linear_17557_2021)"/>
-<defs>
-<linearGradient id="paint0_linear_17557_2021" x1="3.77557" y1="5.91571" x2="5.23185" y2="21.5589" gradientUnits="userSpaceOnUse">
-<stop stop-color="#18E299"/>
-<stop offset="1" stop-color="#15803D"/>
-</linearGradient>
-<linearGradient id="paint1_linear_17557_2021" x1="12.1711" y1="-0.718425" x2="10.1897" y2="22.9832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#16A34A"/>
-<stop offset="1" stop-color="#4ADE80"/>
-</linearGradient>
-<linearGradient id="paint2_linear_17557_2021" x1="23.1327" y1="15.353" x2="9.33841" y2="18.5196" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4ADE80"/>
-<stop offset="1" stop-color="#0D9373"/>
-</linearGradient>
-</defs>
+<svg width="84" height="72" viewBox="0 0 84 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.08549 16.4055C13.6517 16.4055 17.3534 20.2789 17.3534 25.0571V47.3736C17.3534 52.1517 13.6517 56.0252 9.08549 56.0252C4.51928 56.0252 0.817627 52.1517 0.817627 47.3736V25.0571C0.817627 20.2789 4.51928 16.4055 9.08549 16.4055Z" fill="#007AFF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42.1573 0.522217C46.7235 0.522217 50.4251 4.39565 50.4251 9.17376V63.3236C50.4251 68.1017 46.7235 71.9751 42.1573 71.9751C37.5911 71.9751 33.8894 68.1017 33.8894 63.3236V9.17376C33.8894 4.39565 37.5911 0.522217 42.1573 0.522217Z" fill="#007AFF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M75.2708 16.4055C79.837 16.4055 83.5387 20.2789 83.5387 25.0571V47.3736C83.5387 52.1517 79.837 56.0252 75.2708 56.0252C70.7046 56.0252 67.0029 52.1517 67.0029 47.3736V25.0571C67.0029 20.2789 70.7046 16.4055 75.2708 16.4055Z" fill="#007AFF"/>
 </svg>
