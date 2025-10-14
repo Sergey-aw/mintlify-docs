@@ -1,0 +1,34 @@
+# FAQ & Troubleshooting
+
+## Can I use JustTalk AI on my phone?
+Yes, but a laptop with Chrome and a good microphone gives the best results.
+
+## I can’t join my live lesson
+- Make sure your browser can use the microphone/camera (allow permissions)
+- Try a different network or close other video apps
+- Reload the page; if it keeps failing, restart your browser
+
+## I was invited but can’t see my teacher
+- Open the invite email and click Accept Invite
+- If you signed up with a different email, ask your teacher to re‑invite that email
+
+## I don’t see grammar or vocabulary feedback
+- Feedback appears after the lesson finishes
+- Refresh the lesson page in a minute; some analysis takes a short while
+
+## I booked a lesson but my credits didn’t update
+- Check Billing to confirm your credit balance
+- If it looks wrong, contact your teacher; they can help verify the booking
+
+## My audio quality is bad
+- Use wired headphones or a USB mic if possible
+- Stay close to the mic and choose a quiet space
+
+## Is my data private?
+Yes. Your recordings and text are only used to provide feedback inside JustTalk AI.
+
+## Where do I change my password or email?
+Go to Account or Settings. If you’re locked out, use Forgot Password.
+
+## Still need help?
+Contact support with: your email, page URL, time of the issue, and any error message. Screenshots help! You can capture the screen you’re on and attach it to your message.
