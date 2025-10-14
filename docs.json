@@ -44,6 +44,15 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
+          },
+          {
+            "group": "Knowledge base",
+            "pages": [
+              "knowledge-base/overview",
+              "knowledge-base/student-guide",
+              "knowledge-base/teacher-guide",
+              "knowledge-base/faq-troubleshooting"
+            ]
           }
         ]
       },
