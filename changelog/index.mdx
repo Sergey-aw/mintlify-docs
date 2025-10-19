@@ -9,34 +9,68 @@ slug: "/changelog"
 
 News from the JustTalk AI engineering team.
 
-## 10/06/2025
+export const Release = ({ date, title, children }) => (
+	<div style={{
+		display: 'grid',
+		gridTemplateColumns: 'auto 1fr',
+		gap: '1rem',
+		alignItems: 'start',
+		margin: '2rem 0'
+	}}>
+		<div>
+			<span style={{
+				background: 'rgba(0,122,255,0.1)',
+				color: '#007AFF',
+				padding: '0.35rem 0.6rem',
+				borderRadius: '0.5rem',
+				fontWeight: 600,
+				fontSize: '0.85rem',
+				whiteSpace: 'nowrap'
+			}}>{date}</span>
+		</div>
+		<div>
+			<h3 style={{ marginTop: 0 }}>{title}</h3>
+			{children}
+		</div>
+	</div>
+);
 
-### Booking & calendar
-- New booking flow with clearer time‑zone handling and conflict checks
-- Improved lesson reminders (email + in‑app)
+<Release date="10/06/2025" title="Booking & AI improvements">
+	<h4>Booking & calendar</h4>
+	<ul>
+		<li>New booking flow with clearer time‑zone handling and conflict checks</li>
+		<li>Improved lesson reminders (email + in‑app)</li>
+	</ul>
+	<h4>AI feedback</h4>
+	<ul>
+		<li>Faster post‑lesson analysis with clearer grammar explanations</li>
+		<li>Vocabulary breakdown now highlights newly introduced words</li>
+	</ul>
+	<h4>Quality</h4>
+	<ul>
+		<li>Call stability improvements on slower networks</li>
+		<li>Accessibility: better focus states and keyboard navigation in Calendar</li>
+	</ul>
+</Release>
 
-### AI feedback
-- Faster post‑lesson analysis with clearer grammar explanations
-- Vocabulary breakdown now highlights newly introduced words
-
-### Quality
-- Call stability improvements on slower networks
-- Accessibility: better focus states and keyboard navigation in Calendar
-
-## 09/20/2025
-
-### Teacher tools
-- Student Overview: quick snapshot of recent lessons, goals, and trends
-- Bulk invites: paste multiple emails to invite a cohort
-
-### Student experience
-- First‑run onboarding tuned for faster setup
-- Messages: drag‑and‑drop file sharing
-
-### Fixes & polish
-- More accurate CEFR tagging for short utterances
-- Various UI consistency fixes across dark/light themes
+<Release date="09/20/2025" title="Teacher tools, onboarding, and fixes">
+	<h4>Teacher tools</h4>
+	<ul>
+		<li>Student Overview: quick snapshot of recent lessons, goals, and trends</li>
+		<li>Bulk invites: paste multiple emails to invite a cohort</li>
+	</ul>
+	<h4>Student experience</h4>
+	<ul>
+		<li>First‑run onboarding tuned for faster setup</li>
+		<li>Messages: drag‑and‑drop file sharing</li>
+	</ul>
+	<h4>Fixes & polish</h4>
+	<ul>
+		<li>More accurate CEFR tagging for short utterances</li>
+		<li>Various UI consistency fixes across dark/light themes</li>
+	</ul>
+</Release>
 
 <Note>
-Want something prioritized? Send feedback via the app or email support.
+	Want something prioritized? Send feedback via the app or email support.
 </Note>
