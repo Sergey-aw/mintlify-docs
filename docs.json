@@ -19,7 +19,21 @@
               "index",
               "knowledge-base/overview",
               "knowledge-base/student-guide",
-              "knowledge-base/teacher-guide",
+              {
+                "group": "Teacher guide",
+                "pages": [
+                  "knowledge-base/teacher-guide/overview",
+                  "knowledge-base/teacher-guide/profile-setup",
+                  "knowledge-base/teacher-guide/availability",
+                  "knowledge-base/teacher-guide/students",
+                  "knowledge-base/teacher-guide/scheduling",
+                  "knowledge-base/teacher-guide/lesson-reports",
+                  "knowledge-base/teacher-guide/ai-student-insights",
+                  "knowledge-base/teacher-guide/justtalk-ai",
+                  "knowledge-base/teacher-guide/messaging",
+                  "knowledge-base/teacher-guide/best-practices"
+                ]
+              },
               "knowledge-base/faq-troubleshooting"
             ]
           }
@@ -64,7 +78,8 @@
   },
   "redirects": [
     { "source": "/student-guide", "destination": "/knowledge-base/student-guide" },
-    { "source": "/teacher-guide", "destination": "/knowledge-base/teacher-guide" },
+    { "source": "/teacher-guide", "destination": "/knowledge-base/teacher-guide/overview" },
+    { "source": "/knowledge-base/teacher-guide", "destination": "/knowledge-base/teacher-guide/overview" },
     { "source": "/overview", "destination": "/knowledge-base/overview" },
     { "source": "/faq", "destination": "/knowledge-base/faq-troubleshooting" }
   ]
