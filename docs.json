@@ -18,7 +18,24 @@
             "pages": [
               "index",
               "knowledge-base/overview",
-              "knowledge-base/student-guide",
+              {
+                "group": "Student guide",
+                "pages": [
+                  "knowledge-base/student-guide/overview",
+                  "knowledge-base/student-guide/getting-started",
+                  "knowledge-base/student-guide/booking-lessons",
+                  "knowledge-base/student-guide/lesson-reports",
+                  "knowledge-base/student-guide/vocabulary-builder",
+                  "knowledge-base/student-guide/pronunciation",
+                  "knowledge-base/student-guide/grammar-insights",
+                  "knowledge-base/student-guide/messaging",
+                  "knowledge-base/student-guide/ai-practice-app",
+                  "knowledge-base/student-guide/ai-conversations",
+                  "knowledge-base/student-guide/ai-ielts",
+                  "knowledge-base/student-guide/ai-progress-profile",
+                  "knowledge-base/student-guide/tips"
+                ]
+              },
               {
                 "group": "Teacher guide",
                 "pages": [
@@ -77,7 +94,8 @@
     }
   },
   "redirects": [
-    { "source": "/student-guide", "destination": "/knowledge-base/student-guide" },
+    { "source": "/student-guide", "destination": "/knowledge-base/student-guide/overview" },
+    { "source": "/knowledge-base/student-guide", "destination": "/knowledge-base/student-guide/overview" },
     { "source": "/teacher-guide", "destination": "/knowledge-base/teacher-guide/overview" },
     { "source": "/knowledge-base/teacher-guide", "destination": "/knowledge-base/teacher-guide/overview" },
     { "source": "/overview", "destination": "/knowledge-base/overview" },
